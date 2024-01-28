@@ -16,13 +16,15 @@ padding: 1.4rem 4rem;
   padding: 1rem;
 }
 }
-div{
+section{
 display: flex;
 flex-direction: column;
 }
 
 p{
 font-weight: 700;
+
+margin: .3rem 0;
 }
 
 h1{
@@ -35,6 +37,8 @@ button{
 background-color: #F68D48;
 color: white;
 margin-left:.5rem;
+padding:.6rem 1rem;
+border-radius: 3px;
 }
 input{
 padding:.7rem 1rem;
@@ -51,9 +55,6 @@ nav{
  display: flex;
  flex-wrap: wrap;
 justify-content: space-between;
-
-}
-section{
 
 }
 }

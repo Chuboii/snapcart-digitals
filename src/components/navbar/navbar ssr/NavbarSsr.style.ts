@@ -78,6 +78,8 @@ export const Button = styled.button`
   background-color: #E08041;
   color: white;
   margin-left: .5rem;
+  padding: .7rem 1.5rem;
+ border-radius: 7px;
 `
 export const Logo = styled.div`
   font-family: 'Bungee Spice', sans-serif;

@@ -1,6 +1,10 @@
+/* Import Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Climate+Crisis&family=Kanit&family=Rubik+Burned&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -15,6 +19,16 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+button{
+  cursor: pointer;
+}
+
+
+.swiper{
+  width: 100%;
+}
+
 
 body {
   color: rgb(var(--foreground-rgb));
